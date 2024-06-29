@@ -15,7 +15,6 @@ function randomDay1() {
 
 function randomMonth1() {
     randomMonth = Math.floor(Math.random() * (maxMonth - minMonth) + minMonth);
-    //console.log(randomDay);
     if ((randomMonth === 2 || randomMonth === 4 || randomMonth === 6 || randomMonth === 9 || randomMonth === 11)&& randomDay === 31) {
         return randomMonth1();
     }
@@ -29,7 +28,6 @@ function randomMonth1() {
 
 function randomYear1() {
     randomYear = Math.floor(Math.random() * (maxYear - minYear) + minYear);
-    console.log(randomMonth);
     if ((((randomYear % 4 !== 0 && randomYear % 100 === 0) || (randomYear % 4 !== 0 && randomYear % 100 !== 0 && randomYear % 400 !== 0)) && randomDay > 28)) {
        return randomYear1();
     }
