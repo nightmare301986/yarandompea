@@ -1,0 +1,20 @@
+{
+  "name": "nodejs_hw2",
+  "version": "1.0.3",
+  "main": "yarandompea.js",
+  "scripts": {
+    "start": "node yarandompea.js"
+  },
+  "keywords": [],
+  "author": "Pakhomov EA",
+  "license": "ISC",
+  "description": "Create random date (dd mm yyy)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nightmare301986/yarandompea.git#main"
+  },
+  "bugs": {
+    "url": "https://github.com/nightmare301986/yarandompea/issues"
+  },
+  "homepage": "https://github.com/nightmare301986/yarandompea/tree/main#readme"
+}
